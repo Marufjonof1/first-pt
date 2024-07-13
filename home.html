@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar">
+            <div class="navbar_left">
+                <img src="img/site_logo.png" alt="">
+            </div>
+            <div class="navbar_center">
+                <ul id="list">
+                    <li>
+                        <a href="#odejda">Одежда</a>
+                    </li>
+                    <li>
+                        <a href="#obuv">Обувь</a>
+                    </li>
+                    <li>
+                        <a href="#aksessuar">Аксессуары</a>
+                    </li>
+                    <li>
+                        <a href="#brend">Бренды</a>
+                    </li>
+                    <li>
+                        <a href="#raschet">Расчет стоимости</a>
+                    </li>
+                    <li>
+                        <a href="#informatsiya">Информация</a>
+                    </li>
+                </ul>
+                <button id="menyu"><box-icon name='menu' color='#ffffff' ></box-icon></button>
+            </div>
+            <div class="navbar_right">
+                <a href="#"><box-icon name='search-alt-2' color='#ffffff' ></box-icon></a>
+                <a href="#"><box-icon name='star' color='#ffffff' ></box-icon></a>
+                <a href="#"><box-icon name='user' color='#ffffff' ></box-icon></a>
+                <div class="shopping">
+                    <box-icon name='shopping-bag' color='#ffffff' ></box-icon>
+                    <p>11 899 ₽</p>
+                    <img src="img/navbar-7.png" alt="">
+                </div>
+            </div>
+        </nav>
+        <div id="hcontent">
+          <div class="hc_content">
+            <h1>Широкий <br> ассортимент <br> Одежды</h1>
+            <p>Одежда от известные брендов у нас в каталоге. <br> Только качественные вещи.</p>
+            <button class="hbtn">Перейти в каталог <span style="padding-left: 20px;">></span></button>
+            <div class="double_btn">
+                <button id="doublbtn"><box-icon name='chevron-left' color='#080808' ></box-icon></button>
+                <button id="doublbtn"><box-icon name='chevron-right' color='#060606' ></box-icon></button>
+            </div>
+          </div>
+        </div>
+    </header>
+    <main>
+        <div class="m_content1">
+            <div class="mc1_nav">
+                <h2>Обувь</h2>
+                <div class="mc1_inp1">
+                    <input type="text" placeholder="поиск" id="name">
+                    <button onclick="searchpanel()">Submit</button>
+                </div>
+                <div class="yana_tavar">
+                    <a href="https://xwear.in/">больше товаров ></a>
+                    <div class="linea"></div>
+                </div>
+            </div>
+            <div id="row">
+
+            </div>
+        </div>
+        <div class="m-content2">
+            <div class="mc1_nav">
+                <h2>Одежда</h2>
+                <div class="mc1_inp1">
+                    <input type="text" placeholder="поиск" id="name">
+                    <button onclick="searchpanel()">Submit</button>
+                </div>
+                <div class="yana_tavar">
+                    <a href="https://xwear.in/">больше товаров ></a>
+                    <div class="linea"></div>
+                </div>
+            </div>
+            <div id="row2">
+
+            </div>
+        </div>
+        <div class="m-content3">
+            <div class="mc1_nav">
+                <h2>Аксессуары</h2>
+                <div class="mc1_inp1">
+                    <input type="text" placeholder="поиск" id="name">
+                    <button onclick="searchpanel()">Submit</button>
+                </div>
+                <div class="yana_tavar">
+                    <a href="https://xwear.in/">больше товаров ></a>
+                    <div class="linea"></div>
+                </div>
+            </div>
+            <div id="row3">
+
+            </div>
+        </div>
+        <div class="m_content4">
+            
+        </div>
+    </main>
+
+
+
+
+
+    <script src="home.js"></script>
+    <script src="navbar.js"></script>
+</body>
+</html>

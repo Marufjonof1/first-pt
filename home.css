@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+}
+#hcontent{
+    margin: 30px auto;
+    width: 80%;
+    height: 80vh;
+    background-image: url(img/header1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.header2{
+    margin: 30px auto;
+    width: 80%;
+    height: 80vh;
+    background-image: url(img/header2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#hcontent h1{
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 40px;
+}
+#hcontent p{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #121214;
+}
+.hbtn{
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+    border: none;
+    outline: none;
+    color: #ffff;
+    background: #000000;
+}
+.double_btn{
+    margin-top: 40px;
+    width: 400px;
+    gap: 20px;
+}
+#doublbtn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background: #ffffffaf;
+}
+
+
+#doublbtn:hover{
+    transform: scale(1.1);
+    background: #FFFFFF;
+    transition: all 0.5s;
+}
+#doublbtn:active{
+    background: #b4a1a1;
+}
+.hc_content{
+    padding-top: 70px;
+    margin-left: 60px;
+}
+
+.mc1_nav{
+    margin: 0 auto;
+    width: 80%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+.mc1_nav h2{
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+.mc1_nav a{
+    font-weight: 800;
+    font-size: 0.8rem;
+    color: #000000;
+}
+.linea{
+    border: 1px solid #000000;
+}
+.mc1_inp1{
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 42px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.mc1_inp1 input{
+    border: none;
+    outline: none;
+    width: 190px;
+    height: 40px;
+}
+.mc1_inp1 input::placeholder{
+    padding: 0 12px;
+}
+.mc1_inp1 button{
+    width: 110px;
+    height: 40px;
+    border: none;
+    background: orangered;
+    color: white;
+}
+.mc1_inp1 button:active{
+    background: rgb(247, 143, 105);
+}
+#row{
+    width: 80%;
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#row2{
+    width: 80%;
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#row3{
+    width: 80%;
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box{
+    width: 200px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.5s;
+    box-shadow: 0px 0px 4px #000000;
+}
+.box:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+    cursor: url("./img/patinkaC.png"), auto;
+}
+.m-content2{
+    margin-top: 100px;
+}
+.box2{
+    width: 200px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.5s;
+    box-shadow: 0px 0px 4px #000000;
+}
+.box2:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+    cursor: url("./img/kiyimC.png"), auto;
+}
+.box3{
+    width: 200px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.5s;
+    box-shadow: 0px 0px 4px #000000;
+}
+.box3:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+    cursor: url("./img/kepkaC.png"), auto;
+}
+.m-content3{
+    margin-top: 100px;
+}
+@media screen and (max-width: 1000px) {
+    .box, .box2, .box3{
+        margin-top: 20px;
+    }
+    .mc1_inp1{
+        display: none;
+    }
+    
+}
